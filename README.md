@@ -1,12 +1,12 @@
-# Astro Starter Kit: Family
+# Astro Starter Kit: Projects
 
-[![Deploy to Cloudflare](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/cloudflare/templates/tree/main/astro-family-starter-template)
+[![Deploy to Cloudflare](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/cloudflare/templates/tree/main/astro-projects-starter-template)
 
 ![Astro Template Preview](https://github.com/withastro/astro/assets/2244813/ff10799f-a816-4703-b967-c78997e8323d)
 
 <!-- dash-content-start -->
 
-Create a family with Astro and deploy it on Cloudflare Workers as a [static website](https://developers.cloudflare.com/workers/static-assets/).
+Create a projects with Astro and deploy it on Cloudflare Workers as a [static website](https://developers.cloudflare.com/workers/static-assets/).
 
 Features:
 
@@ -24,10 +24,10 @@ Features:
 Outside of this repo, you can start a new project with this template using [C3](https://developers.cloudflare.com/pages/get-started/c3/) (the `create-cloudflare` CLI):
 
 ```bash
-npm create cloudflare@latest -- --template=cloudflare/templates/astro-family-starter-template
+npm create cloudflare@latest -- --template=cloudflare/templates/astro-projects-starter-template
 ```
 
-A live public deployment of this template is available at [https://astro-family-starter-template.templates.workers.dev](https://astro-family-starter-template.templates.workers.dev)
+A live public deployment of this template is available at [https://astro-projects-starter-template.templates.workers.dev](https://astro-projects-starter-template.templates.workers.dev)
 
 ## 🚀 Project Structure
 
@@ -35,7 +35,7 @@ Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page
 
 There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
 
-The `src/content/` directory contains "collections" of related Markdown and MDX documents. Use `getCollection()` to retrieve posts from `src/content/family/`, and type-check your frontmatter using an optional schema. See [Astro's Content Collections docs](https://docs.astro.build/en/guides/content-collections/) to learn more.
+The `src/content/` directory contains "collections" of related Markdown and MDX documents. Use `getCollection()` to retrieve posts from `src/content/projects/`, and type-check your frontmatter using an optional schema. See [Astro's Content Collections docs](https://docs.astro.build/en/guides/content-collections/) to learn more.
 
 Any static assets, like images, can be placed in the `public/` directory.
 
@@ -59,4 +59,4 @@ Check out [our documentation](https://docs.astro.build) or jump into our [Discor
 
 ## Credit
 
-This theme is based off of the lovely [Bear Family](https://github.com/HermanMartinus/bearblog/).
+This theme is based off of the lovely [Bear Projects](https://github.com/HermanMartinus/bearblog/).

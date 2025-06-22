@@ -1,6 +1,6 @@
 {
-  "name": "family-starter-template",
-  "description": "Build a personal website, family, or portfolio with Astro.",
+  "name": "projects-starter-template",
+  "description": "Build a personal website, projects, or portfolio with Astro.",
   "cloudflare": {
     "label": "Astro Framework Starter",
     "products": [
